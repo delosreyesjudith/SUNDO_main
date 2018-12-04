@@ -1,0 +1,639 @@
+{
+  "id": "84121178-0da9-4214-8908-96528e8b40fb",
+  "version": "1.1",
+  "name": "INVALID_REGISTER",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "dbdfbaa2-0b77-4f61-854a-30b9fc85f450",
+    "name": "INVALID",
+    "commands": [{
+      "id": "2555aaa6-de2b-41b0-8067-e446119387e6",
+      "comment": "",
+      "command": "open",
+      "target": "/Sundo/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87e47c4b-dd64-4c90-81cf-4e1fd5736a59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ce216d6-4614-4628-bc3a-a0a09c27a72d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Drive with Us",
+      "targets": [
+        ["linkText=Drive with Us", "linkText"],
+        ["css=li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Drive with Us')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'register-company.php')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "124014e2-8b04-4fe3-8169-fcac0e4fb609",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input[name=\"name\"]", "css"],
+        ["css=.col-md-6:nth-child(1) > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4320e78-7f70-44f4-a6dc-959e2b8da1c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input[name=\"name\"]", "css"],
+        ["css=.col-md-6:nth-child(1) > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Trisha"
+    }, {
+      "id": "8297954e-ad05-449d-9bcb-697f1bddecac",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.col-md-6:nth-child(1) > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f522956f-36d2-4fc6-a7a6-37a572e69b94",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.col-md-6:nth-child(1) > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Trisha@gmail"
+    }, {
+      "id": "e1015ad7-6518-4040-8225-0dff0c31f245",
+      "comment": "",
+      "command": "click",
+      "target": "name=aboutme",
+      "targets": [
+        ["name=aboutme", "name"],
+        ["css=textarea[name=\"aboutme\"]", "css"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='aboutme']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c952626d-39af-402d-8618-53de829caf38",
+      "comment": "",
+      "command": "type",
+      "target": "name=aboutme",
+      "targets": [
+        ["name=aboutme", "name"],
+        ["css=textarea[name=\"aboutme\"]", "css"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='aboutme']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "hmmmmmmmm"
+    }, {
+      "id": "536f99ef-ecea-4841-b17b-0dce5528f41a",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56716d3a-1d2e-4acc-9fea-4ebd5923c248",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "1d3508d4-1c4f-48f0-b147-c7173cca9473",
+      "comment": "",
+      "command": "click",
+      "target": "name=cpassword",
+      "targets": [
+        ["name=cpassword", "name"],
+        ["css=input[name=\"cpassword\"]", "css"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cpassword']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "717ca22e-2fbc-47d6-bd56-86f78fe4c112",
+      "comment": "",
+      "command": "type",
+      "target": "name=cpassword",
+      "targets": [
+        ["name=cpassword", "name"],
+        ["css=input[name=\"cpassword\"]", "css"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cpassword']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "ecddd9ba-f9ff-4fae-9287-fda065b980ad",
+      "comment": "",
+      "command": "click",
+      "target": "name=contactno",
+      "targets": [
+        ["name=contactno", "name"],
+        ["css=input[name=\"contactno\"]", "css"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='contactno']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af48fd5b-d2a6-4df6-b3e2-6bdffde25a35",
+      "comment": "",
+      "command": "type",
+      "target": "name=contactno",
+      "targets": [
+        ["name=contactno", "name"],
+        ["css=input[name=\"contactno\"]", "css"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='contactno']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "1823923787"
+    }, {
+      "id": "d8a6e468-ca0e-4569-93a4-a020699aa8db",
+      "comment": "",
+      "command": "click",
+      "target": "name=image",
+      "targets": [
+        ["name=image", "name"],
+        ["css=input[name=\"image\"]", "css"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='image']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b584c8ea-aa86-4e09-ae46-c593a00b2058",
+      "comment": "",
+      "command": "type",
+      "target": "name=image",
+      "targets": [
+        ["name=image", "name"],
+        ["css=input[name=\"image\"]", "css"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='image']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\IMG20180703160747.jpg"
+    }, {
+      "id": "c2d4676e-4c80-4c54-8a60-bf699bd70801",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(6) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=(//input[@name='image'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea2ccb07-7ad5-4a15-8e83-479193f690d7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(6) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=(//input[@name='image'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\babyko.PNG"
+    }, {
+      "id": "653b9da0-745c-4d44-8368-1e8b68c995f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[type=\"checkbox\"]",
+      "targets": [
+        ["css=input[type=\"checkbox\"]", "css"],
+        ["css=label > input", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[5]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d86f3a83-63e6-4c55-9473-471380dad2ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d695588e-7d12-4712-83c2-d390d20f9219",
+      "comment": "",
+      "command": "click",
+      "target": "name=vehicle_type",
+      "targets": [
+        ["name=vehicle_type", "name"],
+        ["css=select[name=\"vehicle_type\"]", "css"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='vehicle_type']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[4]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5372e7fd-bb6f-4b3d-9575-4459e741d77a",
+      "comment": "",
+      "command": "select",
+      "target": "name=vehicle_type",
+      "targets": [],
+      "value": "label=Sundo Car"
+    }, {
+      "id": "c56788bb-20bf-40c4-a3cc-4d8512fcf80f",
+      "comment": "",
+      "command": "click",
+      "target": "name=vehicle_type",
+      "targets": [
+        ["name=vehicle_type", "name"],
+        ["css=select[name=\"vehicle_type\"]", "css"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='vehicle_type']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[4]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfc6f9ae-afb3-479d-aafb-b223b5320986",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d413857a-8c53-4be9-aff9-28f13dd1db9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4209703-ae70-423a-832d-1ce16c748f90",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input[name=\"name\"]", "css"],
+        ["css=.col-md-6:nth-child(1) > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1c77a3b-1f7b-4c43-93da-df5fb1789238",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input[name=\"name\"]", "css"],
+        ["css=.col-md-6:nth-child(1) > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "trisha"
+    }, {
+      "id": "5b0a5c14-cfa7-48d0-b5cf-81ee8d876176",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.col-md-6:nth-child(1) > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd36ca92-528f-41eb-8231-74ae1f82e573",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.col-md-6:nth-child(1) > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "trisha@gmail.com"
+    }, {
+      "id": "1a062f1b-9459-42a1-8095-863f19f9afcd",
+      "comment": "",
+      "command": "click",
+      "target": "name=aboutme",
+      "targets": [
+        ["name=aboutme", "name"],
+        ["css=textarea[name=\"aboutme\"]", "css"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='aboutme']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0fffb45-47b4-412b-9f34-300f10b70834",
+      "comment": "",
+      "command": "type",
+      "target": "name=aboutme",
+      "targets": [
+        ["name=aboutme", "name"],
+        ["css=textarea[name=\"aboutme\"]", "css"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='aboutme']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "qwweeeeryetreyr"
+    }, {
+      "id": "197d012c-b28d-46da-a75e-ef1cab7ef976",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b6ae288-c737-482e-a3f6-156ed4190c63",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "7984c5df-f361-4f9d-b0a2-b65a92010bec",
+      "comment": "",
+      "command": "click",
+      "target": "name=cpassword",
+      "targets": [
+        ["name=cpassword", "name"],
+        ["css=input[name=\"cpassword\"]", "css"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cpassword']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97db9ede-1952-4b28-a40e-5ee08b6232d5",
+      "comment": "",
+      "command": "type",
+      "target": "name=cpassword",
+      "targets": [
+        ["name=cpassword", "name"],
+        ["css=input[name=\"cpassword\"]", "css"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='cpassword']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "a1f8c62f-700f-498b-86c8-2ebb6b3ab5fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=contactno",
+      "targets": [
+        ["name=contactno", "name"],
+        ["css=input[name=\"contactno\"]", "css"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='contactno']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06236a76-18b5-4b45-88c1-6d5b90c0eea5",
+      "comment": "",
+      "command": "type",
+      "target": "name=contactno",
+      "targets": [
+        ["name=contactno", "name"],
+        ["css=input[name=\"contactno\"]", "css"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='contactno']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "0324879875"
+    }, {
+      "id": "0912e79c-0e8c-4d68-9ab0-5c243ad10967",
+      "comment": "",
+      "command": "submit",
+      "target": "id=registerCompanies",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aab33904-2ee7-4ef2-8e8a-12bcc2635548",
+      "comment": "",
+      "command": "click",
+      "target": "name=image",
+      "targets": [
+        ["name=image", "name"],
+        ["css=input[name=\"image\"]", "css"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='image']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79f7a19b-7b50-4827-8c3c-036a3fbf879d",
+      "comment": "",
+      "command": "type",
+      "target": "name=image",
+      "targets": [
+        ["name=image", "name"],
+        ["css=input[name=\"image\"]", "css"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='image']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Screenshot_2018-09-30-14-34-19.png"
+    }, {
+      "id": "a01f6a39-8ec8-466f-8df9-ffa5c59aa4f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(6) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=(//input[@name='image'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f87caa52-3ddf-4cbc-a03d-ba67db331264",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(6) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=(//input[@name='image'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div[2]/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\images (10).jpeg"
+    }, {
+      "id": "c0099cf0-4bc6-4b4a-af44-e9e99e58b873",
+      "comment": "",
+      "command": "click",
+      "target": "name=vehicle_type",
+      "targets": [
+        ["name=vehicle_type", "name"],
+        ["css=select[name=\"vehicle_type\"]", "css"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='vehicle_type']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[4]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f55dffa-bdfc-49ab-a8c8-eb9afb7c38f7",
+      "comment": "",
+      "command": "select",
+      "target": "name=vehicle_type",
+      "targets": [],
+      "value": "label=Sundo Car"
+    }, {
+      "id": "323e59aa-1dfa-4812-9f54-4f78a426789b",
+      "comment": "",
+      "command": "click",
+      "target": "name=vehicle_type",
+      "targets": [
+        ["name=vehicle_type", "name"],
+        ["css=select[name=\"vehicle_type\"]", "css"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='vehicle_type']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[4]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fbf1d69-6cdb-4303-abfd-4744f68128db",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[type=\"checkbox\"]",
+      "targets": [
+        ["css=input[type=\"checkbox\"]", "css"],
+        ["css=label > input", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[5]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5232901-a1bc-4381-a8f1-5b94592dee49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='registerCompanies']/div/div[6]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5d03c415-a01b-45e6-9d4d-21051f120229",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dbdfbaa2-0b77-4f61-854a-30b9fc85f450"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
